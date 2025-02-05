@@ -1,0 +1,15 @@
+/* 팝업, 버튼 등에 공통 적용할 수 있는 스타일 예시 */
+#code-runner-popup {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+  
+  .run-button-custom {
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  .run-button-custom:hover {
+    color: #007acc;
+  }
+  
