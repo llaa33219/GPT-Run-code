@@ -13,9 +13,5 @@
       "matches": ["https://chatgpt.com/*"],
       "js": ["content-script.js"]
     }
-  ],
-  "permissions": [
-    "activeTab",
-    "scripting"
   ]
 }
