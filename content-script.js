@@ -137,7 +137,7 @@ const languageMap = {
       iframe.style.border = "none";
   
       const base64Code = encodeBase64(codeText);
-      const runUrl = `https://github.bloupla.net/run_code/${encodeURIComponent(mappedLang)}/#=${base64Code}`;
+      const runUrl = `https://dev.bloupla.net/run_code/${encodeURIComponent(mappedLang)}/#=${base64Code}`;
       iframe.src = runUrl;
   
       contentArea.appendChild(iframe);
