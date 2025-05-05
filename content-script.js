@@ -151,9 +151,9 @@ const languageMap = {
    *     - Run 버튼 style에 height: 24px 추가
    *******************************************************/
   function addRunButtons() {
-    // (1) <pre> 태그 중 class에 '!overflow-visible'이 들어간 것 + 자식 div.contain-inline-size
+    // (1) <pre> 태그 중 class에 'overflow-visible!'이 들어간 것 + 자식 div.contain-inline-size
     const codeContainers = document.querySelectorAll(
-      "pre[class*='!overflow-visible'] > div.contain-inline-size"
+      "pre[class*='overflow-visible!'] > div.contain-inline-size"
     );
   
     codeContainers.forEach((container) => {
